@@ -58,7 +58,7 @@ No backend server or database is required for the core functionality.
 
 ## Author
 
-Developed by **Viktor Dobrov** (CEO, [SpeedyIndex](https://speedyindex.com/)).
+Developed by **Viktor Dobrov** (CEO, [SpeedyIndex](https://en.speedyindex.com/)).
 
 ---
 
