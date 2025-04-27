@@ -1,10 +1,10 @@
-# Keyword Index Checker Tool
+# Keyword Index Checker & SEO Tools Suite
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <!-- Optional: Add a license badge if you have one -->
 
-A simple, free, client-side tool to quickly check the presence of keywords in Google's index using various search operators.
+A suite of simple, free, client-side tools designed to assist with keyword research and basic SEO diagnostics. Check keyword indexing status in Google, generate keyword ideas, and learn about core SEO metrics.
 
-**➡️ [Try the Live Tool Here](https://keywordindexchecker.com/) ⬅️**
+**➡️ [Try the Live Tools Here](https://keywordindexchecker.com/) ⬅️**
 
 *(Replace `https://keywordindexchecker.com/` with your actual live URL)*
 
@@ -13,31 +13,44 @@ A simple, free, client-side tool to quickly check the presence of keywords in Go
 <!-- Optional: Add a screenshot here -->
 <!-- ![Screenshot of Keyword Index Checker](link/to/your/screenshot.png) -->
 
-## What it Does
+## What it Offers
 
-This tool helps SEO specialists, marketers, and website owners understand how Google perceives specific keywords by generating direct links to Google searches using advanced operators. It simplifies the process of checking:
+This project provides several useful, browser-based utilities:
 
-*   Whether a keyword appears as an **exact match** (`"keyword"`).
-*   Whether a keyword is present in page **titles** (`intitle:"keyword"`).
-*   Whether a keyword is part of page **URLs** (`inurl:"keyword"`).
-*   Whether **Web Stories** related to the keyword are indexed.
+1.  **Keyword Index Checker (Homepage):**
+    *   Quickly checks the presence of keywords in Google using advanced search operators (`"exact"`, `intitle:`, `inurl:`, Web Stories).
+    *   Supports checking **multiple keywords** at once (comma-separated).
+    *   Allows selection of the target **Google domain** (e.g., .co.uk, .de, .com.au).
+    *   Includes quick links for manual checks on **Google Trends** and **Google Keyword Planner**.
+    *   Offers request **history** (stored locally) and options to copy/clear results.
 
-## Key Features ✨
+2.  **Keyword Idea Generator (`/keyword-ideas/` page):**
+    *   Helps expand your keyword research based on seed keywords.
+    *   Generates potential **questions** (What, Why, How, etc.).
+    *   Creates keyword variations using common **modifiers** and comparisons (for, vs, best, alternative).
+    *   Provides "Alphabet Soup" **links** to explore Google Suggest results directly.
+    *   Allows selection of which idea types to generate.
 
-*   ✅ **Operator Checks:** Generates links for Exact Match, `intitle:`, `inurl:`, and Web Story checks.
-*   🔢 **Bulk Keyword Checking:** Enter multiple keywords separated by commas (e.g., `seo tool, index checker, keyword presence`) to check them all at once.
-*   🌍 **Google Domain Selection:** Choose the target Google domain (e.g., `google.co.uk`, `google.de`, `google.com.au`) to check indexing from a specific region's perspective.
-*   📊 **Quick External Checks:** Instantly generate links to:
-    *   Check keyword popularity on **Google Trends**.
-    *   Look up the keyword in **Google Keyword Planner** (requires Google Ads login).
-    *   Search for other **Free Tools** for volume/difficulty analysis.
-*   🕒 **Request History:** Automatically saves your recent keyword checks in your browser's local storage for quick reuse (this data stays on your device).
-*   📋 **Convenient Actions:** Easily **copy all** generated search links or **clear** the results and input field with dedicated buttons.
-*   🔒 **Client-Side Processing:** All keyword processing happens entirely **in your browser**. Your keywords are **never** sent to our servers.
-*   📱 **Responsive Design:** Usable on both desktop and mobile devices.
-*   🚀 **Website Indexing Promo:** Includes a link to the [SpeedyIndex Google Index Checker](https://en.speedyindex.com/google-index-checker/) for checking the index status of specific URLs or entire websites (Free check for up to 50 URLs available).
+3.  **Keyword Metrics Guide (`/keyword-metrics/` page):**
+    *   An informational resource explaining essential SEO keyword metrics.
+    *   Covers **Search Volume**, **Keyword Difficulty**, **Search Intent**, **CPC**, and **Trends** with detailed explanations and examples.
+    *   Aims to provide context for keyword research and analysis.
 
-## Who is this tool for?
+## Key Features Summary ✨
+
+*   ✅ **Index Checking:** Verify keyword presence with `"exact"`, `intitle:`, `inurl:`, Web Story operators.
+*   💡 **Idea Generation:** Discover related Questions, Modifiers, and Alphabet Soup suggestions.
+*   🔢 **Bulk Input:** Process multiple keywords simultaneously in both main tools.
+*   🌍 **Google Domain Selection:** Target specific regional Google versions for index checks.
+*   📊 **External Metric Links:** Quick links to Google Trends & Keyword Planner from the Index Checker.
+*   📖 **Metrics Explained:** Dedicated page explaining core SEO keyword concepts.
+*   🕒 **Request History:** Local storage saves recent Index Checker queries for easy reuse.
+*   📋 **Convenient Actions:** Copy results/links or clear inputs easily.
+*   🔒 **Client-Side Processing:** All core tool processing happens **in your browser**. Your input keywords are **not** sent to our servers.
+*   📱 **Responsive Design:** Usable on desktop and mobile.
+*   🚀 **Website Indexing Promo:** Link to the [SpeedyIndex Google Index Checker](https://en.speedyindex.com/google-index-checker/) for bulk URL index checks (Free check for up to 50 URLs).
+
+## Who is this tool suite for?
 
 *   SEO Specialists & Analysts
 *   Digital Marketers
@@ -45,11 +58,11 @@ This tool helps SEO specialists, marketers, and website owners understand how Go
 *   Webmasters & Website Owners
 *   PPC Specialists
 *   Link Builders
-*   Anyone curious about SEO and keyword indexing!
+*   Anyone learning about or performing keyword research and SEO!
 
 ## Technology
 
-This tool is built purely with client-side technologies:
+This tool suite is built purely with client-side technologies:
 *   HTML
 *   CSS
 *   Vanilla JavaScript
@@ -58,8 +71,8 @@ No backend server or database is required for the core functionality.
 
 ## Author
 
-Developed by **Viktor Dobrov** (CEO, [SpeedyIndex](https://en.speedyindex.com/)).
+Developed by **Viktor Dobrov** (CEO, [SpeedyIndex](https://speedyindex.com/)).
 
 ---
 
-**[Visit Keyword Index Checker](https://keywordindexchecker.com/)**
+**[Visit Keyword Index Checker & Tools](https://keywordindexchecker.com/)**
