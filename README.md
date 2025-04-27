@@ -6,8 +6,6 @@ A suite of simple, free, client-side tools designed to assist with keyword resea
 
 **➡️ [Try the Live Tools Here](https://keywordindexchecker.com/) ⬅️**
 
-*(Replace `https://keywordindexchecker.com/` with your actual live URL)*
-
 ---
 
 <!-- Optional: Add a screenshot here -->
